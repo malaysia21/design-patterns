@@ -19,7 +19,7 @@ public class Test {
             case PARCEL:
                return new ParcelStrategyI();
             case COURIER:
-               return (new CourierStrategyI());
+               return new CourierStrategyI();
             default:
                 throw new RuntimeException("Shipment type nit implemented");
         }
